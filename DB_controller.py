@@ -7,8 +7,8 @@ class DataBaseController:
     def __init__(self):
         self.mydb = mysql.connector.connect(
                 host="localhost",
-                user="root",
-                password="",
+                user="user",
+                password="password",
                 database="unemployment_statistics"
             )
 

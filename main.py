@@ -1,7 +1,5 @@
 from DB_controller import DataBaseController
 from data_controller import *
-import numpy as np
-import pandas as pd
 import sys
 import time
 import json
