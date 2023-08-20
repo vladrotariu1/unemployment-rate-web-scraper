@@ -12,3 +12,5 @@ services:
       - MYSQL_DATABASE=unemployment_statistics
       - MYSQL_USER=user
       - MYSQL_PASSWORD=password
+    volumes:
+      - ../database-config:/docker-entrypoint-initdb.d
