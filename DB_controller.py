@@ -1,5 +1,4 @@
 import mysql.connector
-import numpy as np
 from data_controller import get_counties_list
 
 
